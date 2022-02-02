@@ -1,0 +1,72 @@
+
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsuoJr2Tbl3ioBTP-TuRD6sDev98p1j9FQJDbKhoof8eJIUH0yB9fGuY3j5Gu07e0FyMg&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+    
+}
+@media only screen and(max-width:2000px){
+   
+    form{
+        background-color: chartreuse;
+    }
+
+}
+
+form{
+    
+    text-align: center;
+    margin-bottom: 48%;
+    margin-top: 53%;
+    
+}
+label{
+    font-size: 50px;
+    font-family: 'Supermercado One', cursive;
+    
+}
+input{
+    width: 20vw;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 7px;
+}
+
+::placeholder{
+    text-align: center;
+    font-size: 1vw;
+    font-family: sans-serif;
+}
+#section{
+    text-align: center;
+    border: none;
+    font-size: 30px;
+    margin-top: 100px;
+    background-color: grey;
+    padding: 9px;
+    border-radius: 15px;
+    font-family: 'Supermercado One', cursive;
+}
+footer{
+    text-align: center;
+    font-size: 30px;
+    
+}
+footer a{
+    padding: 15px;
+    color: black;
+    padding-bottom: 15px;   
+}
+.fa-facebook{
+    color: blue;
+}
+.fa-twitter{
+    color:cornflowerblue;
+}
+.fa-linkedin{
+    color:mediumblue;
+}
